@@ -1,0 +1,646 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/world_background.jpg);
+   background-attachment: fixed;
+   background-position: left top;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_contact
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#contact
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#contact > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#contact > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#contact
+{
+   width: 1200px;
+}
+#contact > .row > .col-1
+{
+   float: left;
+}
+#contact > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#contact:before,
+#contact:after,
+#contact .row:before,
+#contact .row:after
+{
+   display: table;
+   content: " ";
+}
+#contact:after,
+#contact .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#contact
+{
+   width: 100%;
+}
+#contact > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: right;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: left;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3
+{
+   float: none;
+   width: 100%;
+}
+}
+#krutidev_text
+{
+   border: 2px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: "DevLys 010";
+   font-weight: normal;
+   font-size: 21px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#krutidev_text:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#unicode_text
+{
+   border: 2px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#unicode_text:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 36px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: right;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3
+{
+   float: none;
+   width: 100%;
+}
+}
+#ButtonToDev
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 25px 0px 50px 0px;
+}
+#ButtonToUni
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 25px 0px 50px 0px;
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5, #LayoutGrid2 > .row > .col-6, #LayoutGrid2 > .row > .col-7
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5, #LayoutGrid2 > .row > .col-6, #LayoutGrid2 > .row > .col-7
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 8.33333333%;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5, #LayoutGrid2 > .row > .col-6, #LayoutGrid2 > .row > .col-7
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 36px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Button1
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 25px 0px 5px 0px;
+}
+#Button8
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 25px 0px 5px 0px;
+}
+#Button9
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 25px 0px 5px 0px;
+}
+#Button10
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 25px 0px 5px 0px;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3
+{
+   float: none;
+   width: 100%;
+}
+}
+#Button2
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0px 0px 25px 0px;
+}
+#Button5
+{
+   border: 1px solid #F05F40;
+   border-radius: 4px;
+   background-color: #F05F40;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0px 0px 25px 0px;
+}
