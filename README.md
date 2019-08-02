@@ -1,1 +1,1 @@
-# UniCode-To-DevLys-or-KrutiDev-Converter
+# UniCode To DevLys or KrutiDev Converter
