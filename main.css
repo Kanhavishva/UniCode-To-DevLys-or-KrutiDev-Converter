@@ -1,3 +1,8 @@
+@font-face {
+  font-family: DevLys-010;
+  src: url(devlys010.ttf);
+}
+
 @-webkit-keyframes animate-fade-in
 {
    0% { opacity: 0;  }
