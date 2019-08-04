@@ -92,7 +92,7 @@ body
 }
 #contact-button
 {
-   text-align: right;
+   text-align: right !important;
 }
 #wb_LayoutGrid4
 {
