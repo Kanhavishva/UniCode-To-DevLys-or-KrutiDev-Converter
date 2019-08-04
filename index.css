@@ -553,6 +553,7 @@ body
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
+   margin-bottom: -10px !important;
 }
 #LayoutGrid3
 {
