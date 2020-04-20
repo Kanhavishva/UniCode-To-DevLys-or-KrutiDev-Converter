@@ -186,6 +186,8 @@ body
    background-image: none;
    color :#000000;
    font-family: "DevLys 010";
+   src: url('devlys010.ttf')
+         format('truetype');
    font-weight: normal;
    font-size: 21px;
    box-sizing: border-box;
