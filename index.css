@@ -181,7 +181,7 @@ body {
 	}
 }
 
-#krutidev_text {
+@font-face {
 	font-family: "DevLys-010";
 	src: url("./fonts/devlys010.eot");
 	/* IE9 Compat Modes */
@@ -190,8 +190,10 @@ body {
 	url("./fonts/devlys010.svg") format("svg"), /* Legacy iOS */
 	url("./fonts/devlys010.ttf") format("truetype"), /* Safari, Android, iOS */
 	url("./fonts/devlys010.woff") format("woff"), /* Modern Browsers */
-	url("./fonts/devlys010.woff2") format("woff2");
-	/* Modern Browsers */
+	url("./fonts/devlys010.woff2") format("woff2"); /* Modern Browsers */
+}
+#krutidev_text {
+	font-family: "DevLys-010";
 	border: 2px solid #CCCCCC;
 	border-radius: 4px;
 	background-color: #FFFFFF;
